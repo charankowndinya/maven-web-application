@@ -1,0 +1,40 @@
+node ('master')
+{
+
+def mavenHomebro=tool name: "Maven3.6.2", type: "maven" 
+
+stage ('checkout')
+{
+git branch: 'development', credentialsId: '07721c44-ca9a-46da-8848-d47bb9e49cca', url: 'https://github.com/charankowndinya/maven-web-application.git'
+    
+}
+
+ stage('Build')
+ {
+ sh "${mavenHomebro}/bin/mvn clean package"
+
+}
+
+stage('SonarQubeReport')
+ {
+  sh  "${mavenHomebro}/bin/mvn sonar:sonar"
+ }
+
+stage('UploadArtifactsIntoNexus')
+ {
+  sh  "${mavenHomebro}/bin/mvn deploy"
+ }
+
+stage('DeploytoTomcat'){
+    sshagent(['eefd4838-424e-4a41-aac9-bc0944f00ab7']) {
+   sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.234.213.59:/opt/apache-tomcat-9.0.24/webapps/maven-web-application.war"
+}
+}
+stage('EmailNotification'){
+    emailext body: '''Regards,
+                 charan Technologies,
+                  9491442131
+ ''', subject: 'Build is over : charan', to: 'charankowndinya6@gmail.com'
+}
+
+}
