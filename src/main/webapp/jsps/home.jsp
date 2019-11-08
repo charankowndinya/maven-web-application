@@ -10,7 +10,7 @@
 </head>
 <body>
 <h2 align="center">CHARAN TECHNOLOGIES from development branch</h2>
-<h1 align="center">Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center">CRAZY BROOOOOOOOOOOO DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
