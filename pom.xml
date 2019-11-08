@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.22.89:9000/</sonar.host.url>
+		<sonar.host.url>http://52.66.238.66:9000/</sonar.host.url>
 		<sonar.login>589dd9765f46dfc79dab19cfe74cced9312f5fb9</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus</name>
-	      <url>http://13.233.22.89:8081/repository/myntra-release//</url>
+	      <url>http://52.66.238.66:8081/repository/charan-maven-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus</name>
-	      <url>http://13.233.22.89:8081/repository/myntra-snapshot//</url>
+	      <url>http://52.66.238.66:8081/repository/charan-maven-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
