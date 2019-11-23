@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus</name>
-	      <url>http://13.233.5.252:8081/repository/flip-release/</url>
+	      <url>http://13.233.5.252:8081/repository/myn-rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus</name>
-	      <url>http://13.233.5.252:8081/repository/flip-snap/</url>
+	      <url>http://13.233.5.252:8081/repository/myn-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
