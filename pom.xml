@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0-SNAPSHOT</modelVersion>
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.198.251:9000/</sonar.host.url>
-		<sonar.login>2130bad0472d877a7baf7f68a0b1bf311dde133f</sonar.login>
+		<sonar.host.url>http://13.233.5.252:9000/</sonar.host.url>
+		<sonar.login>c139c13e057a4d1f0ee7fb66a1c44c95643b29b8</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.198.251:8081/repository/flip-release/</url>
+	      <url>http://13.233.5.252:8081/repository/flip-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.198.251:8081/repository/flip-snap/</url>
+	      <url>http://13.233.5.252:8081/repository/flip-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
