@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus</name>
-	      <url>http://52.66.99.11:8081/repository/aka-rel/</url>
+	      <url>http://52.66.99.11:8081/repository/myn-rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus</name>
-	      <url>http://52.66.99.11:8081/repository/aka-snap/</url>
+	      <url>http://52.66.99.11:8081/repository/myn-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
