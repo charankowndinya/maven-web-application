@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.250.104:9000/</sonar.host.url>
-		<sonar.login>483b792d0c1b871bfb6aca458fd3400ca53b0bd0</sonar.login>
+		<sonar.host.url>http://52.66.99.11:9000/</sonar.host.url>
+		<sonar.login>d39818336ec4d8aa98bc8fd2b8404bac0440cae6</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus</name>
-	      <url>http://13.232.250.104:8081/repository/myn-rel/</url>
+	      <url>http://52.66.99.11:8081/repository/aka-rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus</name>
-	      <url>http://13.232.250.104:8081/repository/myn-snap/</url>
+	      <url>http://52.66.99.11:8081/repository/aka-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
