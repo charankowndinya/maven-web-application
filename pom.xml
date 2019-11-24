@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -96,17 +96,19 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Releases Nexus</name>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://52.66.99.11:8081/repository/aka-rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot Nexus</name>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://52.66.99.11:8081/repository/aka-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
+
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
